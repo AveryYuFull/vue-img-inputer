@@ -3,6 +3,7 @@
     <img class="logo" width="400" src="../src/assets/vip-logo.png">
 
     <Hello></Hello>
+    <upload></upload>
 
     <section class="wrapper">
       <div class="item">
@@ -67,12 +68,14 @@
 
 <script>
   import Hello from './components/Hello'
+  import Upload from './components/Upload'
 
   export default {
     name: 'app',
 
     components: {
-      Hello
+      Hello,
+      Upload
     },
 
     data() {

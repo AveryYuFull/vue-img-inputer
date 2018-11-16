@@ -1,0 +1,37 @@
+@import "./_public/var";//全局变量
+@import "./_public/_thFontIcon";//全局字体
+
+// *{
+//   box-sizing: border-box;
+//   outline: none;
+//   -webkit-tap-highlight-color: transparent;
+//   color: inherit;
+//   font: inherit;
+//   letter-spacing: 0px;
+//   max-height: 999999px;
+//   // appearance:none;//去除默认样式
+//   text-size-adjust:none;//不要定义成可继承的或全局的
+//   tap-highlight-color:transparent;
+// }
+
+// html {
+//   font-family: sans-serif;
+//   -webkit-text-size-adjust: 100%;
+//   -ms-text-size-adjust: 100%;
+// }
+
+// body {
+//     margin: 0;
+//     font-size: 13px;
+//     color: $defaultColor;
+//     line-height: 1.44;
+//     font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+// }
+input{
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+@include thFontIcon('../');

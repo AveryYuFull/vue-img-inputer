@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+$prefix: "k_";
+//字体
+$font: "microsoft yahei";
+$fontyh: "微软雅黑";
+
+//边距
+$plr: 16px; //左右内
+$ptb: 15px; //上下内
+$videoBoxH:56.27%; // 视频高度比（56.27%的高度是16：9）
+
+//字体大小
+$fontSize120: 60px;
+$fontSize110: 56px;
+$fontSize100: 50px;
+$fontSize80: 40px;
+$fontSize72: 36px;
+$fontSize64: 32px;
+$fontSize60: 30px;
+$fontSize56: 28px;
+$fontSize52: 26px;
+$fontSize50: 25px;
+$fontSize48: 24px;
+$fontSize46: 23px;
+$fontSize44: 22px;
+$fontSize42: 21px;
+$fontSize40: 20px;
+$fontSize36: 18px;
+$fontSize34: 17px;
+$fontSize32: 16px;
+$fontSize30: 15px;
+$fontSize28: 14px;
+$fontSize26: 13px;
+$fontSize24: 12px;
+$fontSize22: 11px;
+$fontSize20: 10px;
+$fontSize16: 8px;
+$smallFontSize: $fontSize24;
+$defaultFontSize: $fontSize56;
+$largeFontSize: $fontSize32;
+
+//颜色
+$color0: #000;
+$color15: #151515;
+$color2: #222222;
+$color3: #333333;
+$color6: #666666;
+$color9: #999999;
+$colorb: #bbbbbb;
+$colorc: #cccccc;
+$colord: #dddddd;
+$colore: #eeeeee;
+$colorf4: #f4f4f4;
+$color92: #929292;
+$colorc4: #C4C4C4;
+$color628: #E4D628;
+$color6a6: #F6A623;
+$colorf36: #FFCF36;
+$color30e: #30e811;
+$color07d: #34BC47; //微信颜色
+$color009: #009FE8; //支付宝颜色
+$color0f8:#0f8cf6;
+$color010: #F8E81C; //黄色
+$color011: #FF7300; //加入购物车
+$color012:#0F8CF6; //btn颜色
+$color013:#F8BF12;
+$color014:#084C86; //用户信息背景色
+$color015:#0F8CF6; //字体颜色
+
+
+$colorD9D: #d9d9d9;
+$colorDF: #DFDFDF;
+$colorC2C: #c2c2c2;
+$color47a: #47ab0f;
+$color3B9: #3b99fc;
+$colorF57: #F57C33;
+$colorEDE: #ededed;
+$color5F6: #5f646e;
+
+$colorff6: #FF6363; //个人中心
+$colorff4: #FF4747; //童年学院
+$colorffb: #FFB2B2; //童年学院
+$color008: #008BFF; //童年学院
+
+$colorf: #fff;
+$color3f: #3f3f3f;
+$colord3: #d3d3d3;
+$colorOrange: #FF3838;
+$coloree4: #EE424A;
+$colorff5: #FF5571;
+
+$colorD38: #FF5D38;
+$colorBlue: #0077DA;
+$colorB38: #38A4FF;
+$colorActive: $colorOrange;
+
+$color07: $colorOrange;
+
+$colorYellow: $colorOrange;
+$colorRgbaRed: RGBA(223, 51, 72, 1);
+$colorDF3: #DF3348;
+$color6C6: #6c6c6c;
+
+//rgba颜色
+@function rgbaColorf($opacity:0.5) {
+   @return rgba(255,255,255,$opacity); //蓝色
+}
+
+//背景颜色
+$bg0: #000;
+$bg2f3: #2F3444;
+$bg3: #333;
+$bg9: #999;
+$bgc: $colorc;
+$bgd: $colord;
+$bge: $colore;
+$bge2: #e2e2e2;
+$bgf4: #f4f4f4;
+$bgf7: #f7f7f7;
+$bgd8: #D8D8D8;
+$bgB38: $colorB38;
+$bg0f8:$color0f8;
+$bg30e:$color30e;
+$bgf: #fff;
+// $bgBlue:$colorOrange;
+$bgOrange: $colorOrange;
+$bgf54: #F54851;
+$bgf16: #F1656A;
+$bgfdf: #FDF4F4;
+$bg6a6: #F6A623;
+$bgffa: #FFA229;
+$bgff5: $colorff5;
+$bgff4: $colorff4;
+$bgffb: #FFB945;
+$bgRed: #df3348;
+
+
+$bgcolorf: $bgf;
+$bgcolorf5: #f5f5f5;
+
+$bg008: #008BFF;
+$carBgHdRed:#e83e41;
+
+//rgba背景颜色
+@function rgbaBgBlue($opacity:0.5) {
+   @return rgba(0,119,218,$opacity); //蓝色
+}
+
+//rgba背景颜色
+@function rgbaBgOrange($opacity:0.7) {
+   @return rgba(255,56,56,$opacity); //橙色
+}
+
+//rgba背景颜色
+@function rgbaBg51($opacity:0.7) {
+   @return rgba(51,51,51,$opacity); //灰色
+}
+
+//rgba背景颜色
+@function rgbaBg255($opacity:0.95) {
+   @return rgba(255,255,255,$opacity); //白色
+}
+
+//rgba背景颜色
+@function rgbaBg0($opacity:0.8) {
+   @return rgba(0,0,0,$opacity); //黑色
+}
+
+//线的颜色
+$brf: #fff;
+$br0: #000;
+$br3: #333;
+$br6: #666;
+$br9: #999;
+$br97: #979797;
+$brc: #ccc;
+$bre: #eee;
+$brd3: #d3d3d3;
+$br38: #383838;
+$brf4: $colorf4;
+$bre4: #E4E4E4;
+$brd8: #D8D8D8;
+$brc4: $colorc4;
+$bre2: #E2E2E2;
+$brOrange: #FF3838;
+$brf3d: #F3D4D4;
+
+$borderf: $brf;
+$border3: $br3;
+$borderc: $brc;
+$bordere: $bre;
+$border9: $br9;
+$border38: $br38;
+$borderd1: $brd3;
+
+$brD9D: $colorD9D;
+$brcf:#cfcfcf;
+$bref: #efefef;
+
+//页面最大宽度
+$pageMaxWidth: 600px;
+//头部tabber高度
+$headerTabberHeight: 44px;
+
+//头部tabber高度(大的)
+$headerTabberHeightBig: 54px;
+
+//底部tabber高度
+$footerTabberHeight: 50px;
+
+//页面最大高度是580px的
+$maxHeight: 580px;
+
+$maxWidth: 800px; // 最大宽度
+
+$carhdHeight: 48px; // 选车型详情页头部高度
+
+%iphone {
+    appearance: none; //去除默认样式
+    text-size-adjust: none; //不要定义成可继承的或全局的
+    tap-highlight-color: transparent; //当你点击一个链接或者通过Javascript定义的可点击元素的时候，它就会出现一个半透明的灰色背景。
+}
+
+
+$defaultFontSize: $fontSize28;
+$defaultBgRed: $bgRed;
+
+$defaultColor: $color3;
+$defaultColorRed: $bgRed;
